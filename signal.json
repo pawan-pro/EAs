@@ -1,0 +1,367 @@
+Enhanced Trading Signals Analysis:
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   # |    Asset     |   RRR |   Curr RRR |   Prob |  Action  |  Price Levels   |    Time Information     |             Notes              |  Status  |
++=====+==============+=======+============+========+==========+=================+=========================+================================+==========+
+|   1 |    BTCUSD    |  2.38 |       7.88 |      0 |   Long   | TP: 105282.1500 | Identified: 01/27 20:30 |     Possible bullish price     | ONGOING  |
+|     |              |       |            |        |          | EL: 101907.7400 |   Expiry: 01/28 09:30   |      movement towards the      |          |
+|     |              |       |            |        |          | CP: 101027.8200 |  Remaining: 0d 11h 56m  |  resistance 105,282.15 within  |          |
+|     |              |       |            |        |          | SL: 100488.2300 |                         | the next 13 hours. Resistance  |          |
+|     |              |       |            |        |          |                 |                         |     Emerging : An Hour Ago     |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   2 |    BTCUSD    |  2.38 |       6.12 |     80 |   Long   | TP: 105282.1500 | Identified: 01/27 20:30 |    Resistance identified at    | ONGOING  |
+|     |              |       |            |        |          | EL: 101907.7400 |   Expiry: 01/28 08:30   | 101907.74 with a stop loss at  |          |
+|     |              |       |            |        |          | CP: 101161.9500 |  Remaining: 0d 10h 55m  |   100488.23 and a target of    |          |
+|     |              |       |            |        |          | SL: 100488.2300 |                         |     105282.15 in 12 hours.     |          |
+|     |              |       |            |        |          |                 |                         |       Probability of 80%       |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   3 |  Gold Spot   |  2.23 |       0.45 |      0 |  Short   |  SL: 2771.8300  | Identified: 01/27 18:30 |    Channel Down identified.    | ONGOING  |
+|     |              |       |            |        |          |  EL: 2760.5400  |   Expiry: 01/28 02:30   |     Possible bearish price     |          |
+|     |              |       |            |        |          |  CP: 2746.7000  |  Remaining: 0d 4h 56m   |   movement towards support.    |          |
+|     |              |       |            |        |          |  TP: 2735.3300  |                         |                                |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   4 |    ETHUSD    |  1.85 |       0.43 |      0 |  Short   |  SL: 3429.3800  | Identified: 01/27 05:30 |  Triangle Breakout : 16 Hours  | ONGOING  |
+|     |              |       |            |        |          |  EL: 3278.7784  |   Expiry: 02/02 05:30   |  Ago. Possible bearish price   |          |
+|     |              |       |            |        |          |  CP: 3128.3720  |  Remaining: 5d 7h 55m   | movement forecast for the next |          |
+|     |              |       |            |        |          |  TP: 3000.1057  |                         |   6 days towards 3,000.1057.   |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   5 |    ETHUSD    |  1.82 |       0.41 |     62 |  Short   |  SL: 3429.3800  | Identified: 01/27 05:30 |   Triangle Identified, Entry   | ONGOING  |
+|     |              |       |            |        |          |  EL: 3278.7784  |   Expiry: 01/30 05:30   | Level: 3278.7784, Stop Level:  |          |
+|     |              |       |            |        |          |  CP: 3128.3720  |  Remaining: 2d 7h 55m   |    3429.3800, Target Level:    |          |
+|     |              |       |            |        |          |  TP: 3003.9746  |                         |  3003.9746, Target Period: 3   |          |
+|     |              |       |            |        |          |                 |                         |     days, Probability: 62%     |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   6 |    ETHUSD    |  1.82 |       0.41 |     67 |  Short   |  SL: 3429.3800  | Identified: 01/27 05:30 |      Triangle Identified       | ONGOING  |
+|     |              |       |            |        |          |  EL: 3278.7784  |   Expiry: 01/30 05:30   |                                |          |
+|     |              |       |            |        |          |  CP: 3128.3720  |  Remaining: 2d 7h 55m   |                                |          |
+|     |              |       |            |        |          |  TP: 3003.9746  |                         |                                |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   7 |    BTCUSD    |  1.81 |       4.38 |      0 |   Long   | TP: 105241.7100 | Identified: 01/27 20:30 | Resistance Emerging : An Hour  | ONGOING  |
+|     |              |       |            |        |          | EL: 101907.7400 |   Expiry: 01/28 05:30   |  Ago. Possible bullish price   |          |
+|     |              |       |            |        |          | CP: 101027.8200 |  Remaining: 0d 7h 56m   |      movement towards the      |          |
+|     |              |       |            |        |          | SL: 100065.6000 |                         |  resistance 105,241.71 within  |          |
+|     |              |       |            |        |          |                 |                         |    the next 9 hours. Expiry    |          |
+|     |              |       |            |        |          |                 |                         |     Date/Time: 1/28 05:42      |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   8 |    EURUSD    |  1.8  |       1.34 |      0 |   Long   |   TP: 1.0566    | Identified: 01/27 15:30 |     Rising Wedge Emerging.     | ONGOING  |
+|     |              |       |            |        |          |   CP: 1.0502    |   Expiry: 01/28 13:30   |     Possible bullish price     |          |
+|     |              |       |            |        |          |   EL: 1.0494    |  Remaining: 0d 15h 55m  |      movement towards the      |          |
+|     |              |       |            |        |          |   SL: 1.0454    |                         |  resistance 1.0566 within the  |          |
+|     |              |       |            |        |          |                 |                         |         next 18 hours.         |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|   9 |    EURUSD    |  1.8  |       1.34 |      0 |   Long   |   TP: 1.0566    | Identified: 01/27 15:30 |     Rising Wedge Emerging.     | ONGOING  |
+|     |              |       |            |        |          |   CP: 1.0502    |   Expiry: 01/28 13:30   |     Possible bullish price     |          |
+|     |              |       |            |        |          |   EL: 1.0494    |  Remaining: 0d 15h 55m  |      movement towards the      |          |
+|     |              |       |            |        |          |   SL: 1.0454    |                         |  resistance 1.0566 within the  |          |
+|     |              |       |            |        |          |                 |                         |     next 18 hours. Expiry      |          |
+|     |              |       |            |        |          |                 |                         |     Date/Time: 01/28 13:58     |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  10 |    EURUSD    |  1.78 |       0.23 |      0 |   Long   |   TP: 1.0577    | Identified: 01/21 05:30 |   Falling Wedge Breakout : 7   | ONGOING  |
+|     |              |       |            |        |          |   CP: 1.0502    |   Expiry: 02/04 05:30   |   Days Ago. Possible bullish   |          |
+|     |              |       |            |        |          |   EL: 1.0321    |  Remaining: 7d 7h 55m   |  price movement forecast for   |          |
+|     |              |       |            |        |          |   SL: 1.0177    |                         |    the next 15 days towards    |          |
+|     |              |       |            |        |          |                 |                         |   1.0577. Falling Wedge has    |          |
+|     |              |       |            |        |          |                 |                         | broken through the resistance  |          |
+|     |              |       |            |        |          |                 |                         |      line at 1/21 05:30.       |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  11 |    BTCUSD    |  1.77 |       4.26 |      0 |   Long   | TP: 105193.0600 | Identified: 01/27 20:30 | Resistance Emerging : An Hour  | ONGOING  |
+|     |              |       |            |        |          | EL: 101907.7400 |   Expiry: 01/28 06:30   |  Ago. Possible bullish price   |          |
+|     |              |       |            |        |          | CP: 101027.8200 |  Remaining: 0d 8h 56m   |      movement towards the      |          |
+|     |              |       |            |        |          | SL: 100050.5200 |                         |  resistance 105,193.06 within  |          |
+|     |              |       |            |        |          |                 |                         |   the next 10 hours. Expiry    |          |
+|     |              |       |            |        |          |                 |                         |     Date/Time: 1/28 06:42      |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  12 | US Crude Oil |  1.71 |       0.72 |      0 |  Short   |   SL: 80.7800   | Identified: 01/23 05:30 |  Channel Up Emerging : 5 Days  | ONGOING  |
+|     |              |       |            |        |          |   EL: 76.2200   |   Expiry: 02/24 05:30   |  Ago. Possible bearish price   |          |
+|     |              |       |            |        |          |   CP: 73.5900   |  Remaining: 27d 7h 55m  |  movement towards the support  |          |
+|     |              |       |            |        |          |   TP: 68.4300   |                         | 68.43 within the next 33 days. |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  13 |    USDJPY    |  1.69 |       0    |      0 |   Long   |  TP: 159.9800   | Identified: 01/23 05:30 |    Rising Wedge identified.    | INVALID  |
+|     |              |       |            |        |          |  EL: 156.7100   |   Expiry: 02/06 05:30   |     Possible bullish price     |          |
+|     |              |       |            |        |          |  SL: 154.7700   |  Remaining: 9d 7h 55m   |      movement towards the      |          |
+|     |              |       |            |        |          |  CP: 154.3230   |                         |  resistance 159.98 within the  |          |
+|     |              |       |            |        |          |                 |                         |         next 14 days.          |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  14 |    BCHUSD    |  1.69 |       0.7  |     62 |  Short   |  SL: 454.9100   | Identified: 01/27 05:30 | Triangle identified for BCHUSD | ONGOING  |
+|     |              |       |            |        |          |  EL: 432.0223   |   Expiry: 01/30 05:30   | at 240 Min chart. Entry level  |          |
+|     |              |       |            |        |          |  CP: 418.6556   |  Remaining: 2d 7h 55m   |  432.0223, stop loss 454.91,   |          |
+|     |              |       |            |        |          |  TP: 393.3380   |                         | target 393.3380, target period |          |
+|     |              |       |            |        |          |                 |                         |    3 days, probability 62%     |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  15 | US Crude Oil |  1.54 |       0    |      0 |   Long   |   TP: 76.1000   | Identified: 01/27 20:30 |     Rising Wedge Emerging.     | INVALID  |
+|     |              |       |            |        |          |   EL: 75.3600   |   Expiry: 01/28 00:30   |     Possible bullish price     |          |
+|     |              |       |            |        |          |   SL: 74.8800   |  Remaining: 0d 2h 56m   |      movement towards the      |          |
+|     |              |       |            |        |          |   CP: 73.5900   |                         |  resistance 76.10 within the   |          |
+|     |              |       |            |        |          |                 |                         |         next 4 hours.          |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  16 | Brent Crude  |  1.31 |       0    |      0 |   Long   |   TP: 79.2100   | Identified: 01/27 20:30 |     Possible bullish price     | INVALID  |
+|     |              |       |            |        |          |   EL: 78.3600   |   Expiry: 01/28 01:30   |      movement towards the      |          |
+|     |              |       |            |        |          |   SL: 77.7100   |  Remaining: 0d 3h 56m   |  resistance 79.21 within the   |          |
+|     |              |       |            |        |          |   CP: 77.5200   |                         |         next 5 hours.          |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  17 | Brent Crude  |  1.29 |       0    |      0 |   Long   |   TP: 79.2000   | Identified: 01/27 20:30 | Channel Up identified at 01/27 | INVALID  |
+|     |              |       |            |        |          |   EL: 78.3600   |   Expiry: 01/28 01:30   | 20:30. Possible bullish price  |          |
+|     |              |       |            |        |          |   SL: 77.7100   |  Remaining: 0d 3h 56m   |      movement towards the      |          |
+|     |              |       |            |        |          |   CP: 77.5200   |                         |  resistance 79.20 within the   |          |
+|     |              |       |            |        |          |                 |                         |         next 5 hours.          |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  18 |   DASHGBP    |  1.28 |       1.41 |     73 |  Short   |   SL: 28.2950   | Identified: 01/27 09:30 |    DASHGBP 240 Min Support     | ONGOING  |
+|     |              |       |            |        |          |   CP: 26.3690   |   Expiry: 01/30 09:30   |  Identified Time : 1/27 09:30  |          |
+|     |              |       |            |        |          |   EL: 26.2600   |  Remaining: 2d 11h 55m  |   Entry Level : 26.2600 Stop   |          |
+|     |              |       |            |        |          |   TP: 23.6470   |                         | Level : 28.2950 Target Level : |          |
+|     |              |       |            |        |          |                 |                         | 23.6470 Target Period : 3 days |          |
+|     |              |       |            |        |          |                 |                         |   Probability: 73% Forecast:   |          |
+|     |              |       |            |        |          |                 |                         |            23.6470             |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  19 |   DASHEUR    |  1.27 |       1.42 |     73 |  Short   |   SL: 33.5699   | Identified: 01/27 09:30 |    DASHEUR 240 Min Support     | ONGOING  |
+|     |              |       |            |        |          |   CP: 31.3286   |   Expiry: 01/30 09:30   |  Identified Time : 1/27 09:30  |          |
+|     |              |       |            |        |          |   EL: 31.1800   |  Remaining: 2d 11h 55m  |   Entry Level : 31.1800 Stop   |          |
+|     |              |       |            |        |          |   TP: 28.1530   |                         | Level : 33.5699 Target Level : |          |
+|     |              |       |            |        |          |                 |                         | 28.1530 Target Period : 3 days |          |
+|     |              |       |            |        |          |                 |                         |   Probability: 73% Forecast:   |          |
+|     |              |       |            |        |          |                 |                         |            28.1530             |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  20 | US Crude Oil |  1.21 |      -0.37 |      0 |  Short   |   SL: 75.4200   | Identified: 01/27 21:15 | Descending Triangle Breakout.  |   NEW    |
+|     |              |       |            |        |          |   EL: 74.9000   |   Expiry: 01/27 23:15   |     Possible bearish price     |          |
+|     |              |       |            |        |          |   TP: 74.2700   |  Remaining: 0d 1h 41m   | movement forecast for the next |          |
+|     |              |       |            |        |          |   CP: 73.5800   |                         | 2 hours towards 74.27. Expiry  |          |
+|     |              |       |            |        |          |                 |                         |     Date/Time: 01/27 23:29     |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  21 |    EURCHF    |  1.11 |       0.95 |     70 |  Short   |   SL: 0.9518    | Identified: 01/27 17:30 |   EURCHF 240 Min Channel Up    | ONGOING  |
+|     |              |       |            |        |          |   EL: 0.9462    |   Expiry: 01/28 17:30   |  Identified Time : 1/27 17:30  |          |
+|     |              |       |            |        |          |   CP: 0.9457    |  Remaining: 0d 19h 55m  |   Entry Level : 0.9462 Stop    |          |
+|     |              |       |            |        |          |   TP: 0.9400    |                         | Level : 0.9518 Target Level :  |          |
+|     |              |       |            |        |          |                 |                         |  0.9400 Target Period : 1 day  |          |
+|     |              |       |            |        |          |                 |                         |   Probability: 70% Forecast:   |          |
+|     |              |       |            |        |          |                 |                         |             0.9400             |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  22 |    AUDCAD    |  1.03 |       0.97 |     70 |  Short   |   SL: 0.9068    | Identified: 01/27 19:30 |    Rising Wedge Identified     | ONGOING  |
+|     |              |       |            |        |          |   EL: 0.9037    |   Expiry: 01/28 19:30   |                                |          |
+|     |              |       |            |        |          |   CP: 0.9036    |  Remaining: 0d 21h 55m  |                                |          |
+|     |              |       |            |        |          |   TP: 0.9005    |                         |                                |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  23 | Brent Crude  |  0.97 |       0.57 |      0 |  Short   |   SL: 82.7800   | Identified: 01/24 05:30 | Channel Up identified at 01/24 | ONGOING  |
+|     |              |       |            |        |          |   EL: 77.8700   |   Expiry: 02/26 05:30   | 05:30. Possible bearish price  |          |
+|     |              |       |            |        |          |   CP: 76.6300   |  Remaining: 29d 7h 55m  |  movement towards the support  |          |
+|     |              |       |            |        |          |   TP: 73.1000   |                         | 73.10 within the next 34 days. |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  24 |    ETHUSD    |  0.88 |       1.63 |     75 |  Short   |  SL: 3305.8554  | Identified: 01/27 17:30 |     ETHUSD 240 Min Support     | ONGOING  |
+|     |              |       |            |        |          |  CP: 3128.3720  |   Expiry: 02/05 17:30   |  Identified at 3057.6000 with  |          |
+|     |              |       |            |        |          |  EL: 3057.6000  |  Remaining: 8d 19h 55m  |   stop loss at 3305.8554 and   |          |
+|     |              |       |            |        |          |  TP: 2839.0291  |                         |   target at 2839.0290 with 9   |          |
+|     |              |       |            |        |          |                 |                         |   days target period and 75%   |          |
+|     |              |       |            |        |          |                 |                         |          probability           |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  25 |    ETHUSD    |  0.88 |       1.63 |     75 |  Short   |  SL: 3305.8554  | Identified: 01/27 17:30 |     ETHUSD 240 Min Support     | ONGOING  |
+|     |              |       |            |        |          |  CP: 3128.3720  |   Expiry: 02/05 17:30   |  Identified at 3057.6000 with  |          |
+|     |              |       |            |        |          |  EL: 3057.6000  |  Remaining: 8d 19h 55m  |   stop loss at 3305.8554 and   |          |
+|     |              |       |            |        |          |  TP: 2839.0291  |                         |   target at 2839.0290 with 9   |          |
+|     |              |       |            |        |          |                 |                         |   days target period and 75%   |          |
+|     |              |       |            |        |          |                 |                         |          probability           |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  26 |  Gold Spot   |  0.83 |      -0.01 |      0 |  Short   |  SL: 2786.0500  | Identified: 01/27 05:30 | Channel Up identified at 1/27  | ONGOING  |
+|     |              |       |            |        |          |  EL: 2764.6700  |   Expiry: 01/29 05:30   |  05:30. This pattern is still  |          |
+|     |              |       |            |        |          |  TP: 2746.9800  |  Remaining: 1d 7h 55m   |   in the process of forming.   |          |
+|     |              |       |            |        |          |  CP: 2746.7000  |                         |     Possible bearish price     |          |
+|     |              |       |            |        |          |                 |                         |  movement towards the support  |          |
+|     |              |       |            |        |          |                 |                         |   2,746.98 within the next 3   |          |
+|     |              |       |            |        |          |                 |                         |             days.              |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  27 |    AUDUSD    |  0.82 |       0.7  |     70 |  Short   |   SL: 0.6330    | Identified: 01/27 13:30 |   AUDUSD 240 Min Channel Up    | ONGOING  |
+|     |              |       |            |        |          |   EL: 0.6285    |   Expiry: 01/28 13:30   |   Identified. Entry: 0.6285,   |          |
+|     |              |       |            |        |          |   CP: 0.6282    |  Remaining: 0d 15h 55m  | Stop: 0.6330, Target: 0.6248,  |          |
+|     |              |       |            |        |          |   TP: 0.6248    |                         |     Target Period: 1 day,      |          |
+|     |              |       |            |        |          |                 |                         |        Probability: 70%        |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  28 | Natural Gas  |  0.81 |       1.05 |     77 |  Short   |   SL: 3.9300    | Identified: 01/27 16:30 |   Natural Gas 60 Min Support   | ONGOING  |
+|     |              |       |            |        |          |   CP: 3.6910    |   Expiry: 01/30 16:30   | Identified at 3.66 with a stop |          |
+|     |              |       |            |        |          |   EL: 3.6600    |  Remaining: 2d 18h 55m  |  loss of 3.93 and a target of  |          |
+|     |              |       |            |        |          |   TP: 3.4400    |                         |    3.44 in 3 days with 77%     |          |
+|     |              |       |            |        |          |                 |                         |          probability           |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  29 | Brent Crude  |  0.75 |       0    |      0 |   Long   |   TP: 78.9900   | Identified: 01/27 20:45 |  Ascending Triangle Emerging.  | INVALID  |
+|     |              |       |            |        |          |   EL: 78.4400   |   Expiry: 01/28 02:45   |     Possible bullish price     |          |
+|     |              |       |            |        |          |   SL: 77.7100   |  Remaining: 0d 5h 11m   |      movement towards the      |          |
+|     |              |       |            |        |          |   CP: 76.6300   |                         |  resistance 78.99 within the   |          |
+|     |              |       |            |        |          |                 |                         |         next 6 hours.          |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  30 |  Gold Spot   |  0.71 |       1.05 |      0 |  Short   |  SL: 2763.3200  | Identified: 01/27 21:00 | Support Breakout : 29 Minutes  |   NEW    |
+|     |              |       |            |        |          |  CP: 2746.3000  |   Expiry: 01/28 17:00   |   Ago. Broke through Support   |          |
+|     |              |       |            |        |          |  EL: 2742.9700  |  Remaining: 0d 19h 26m  |  level of 2,745.62. Possible   |          |
+|     |              |       |            |        |          |  TP: 2728.4900  |                         |     bearish price movement     |          |
+|     |              |       |            |        |          |                 |                         | forecast for the next 20 hours |          |
+|     |              |       |            |        |          |                 |                         |    towards 2,728.49. Expiry    |          |
+|     |              |       |            |        |          |                 |                         |     Date/Time: 01/28 17:06     |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  31 | US Crude Oil |  0.64 |      -0.23 |      0 |  Short   |   SL: 75.9900   | Identified: 01/27 18:30 |   Channel Down identified at   | ONGOING  |
+|     |              |       |            |        |          |   EL: 74.8600   |   Expiry: 01/28 04:30   | 01/27 18:30. Possible bearish  |          |
+|     |              |       |            |        |          |   TP: 74.1400   |  Remaining: 0d 6h 56m   |   price movement towards the   |          |
+|     |              |       |            |        |          |   CP: 73.5900   |                         | support 74.14 within the next  |          |
+|     |              |       |            |        |          |                 |                         |   10 hours. This pattern is    |          |
+|     |              |       |            |        |          |                 |                         |    still in the process of     |          |
+|     |              |       |            |        |          |                 |                         |            forming.            |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  32 |    ETHUSD    |  0.58 |       1.04 |      0 |  Short   |  SL: 3333.2625  | Identified: 01/27 13:30 |   Support Breakout : 8 Hours   | ONGOING  |
+|     |              |       |            |        |          |  CP: 3128.3720  |   Expiry: 01/30 13:30   |   Ago. Broke through Support   |          |
+|     |              |       |            |        |          |  EL: 3069.2800  |  Remaining: 2d 15h 55m  |  level of 3,185.4300 at 1/27   |          |
+|     |              |       |            |        |          |  TP: 2916.1870  |                         | 13:30. Possible bearish price  |          |
+|     |              |       |            |        |          |                 |                         | movement forecast for the next |          |
+|     |              |       |            |        |          |                 |                         |   4 days towards 2,916.1870.   |          |
+|     |              |       |            |        |          |                 |                         |  Expiry Date/Time: 1/31 19:58  |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  33 | US Crude Oil |  0.55 |      -0.52 |      0 |  Short   |   SL: 75.5800   | Identified: 01/27 18:30 |   Support Emerging. Possible   | ONGOING  |
+|     |              |       |            |        |          |   EL: 74.9600   |   Expiry: 01/30 18:30   | bearish price movement towards |          |
+|     |              |       |            |        |          |   TP: 74.6200   |  Remaining: 2d 20h 56m  |  the support 74.62 within the  |          |
+|     |              |       |            |        |          |   CP: 73.5900   |                         |   next 4 days.  Approaching    |          |
+|     |              |       |            |        |          |                 |                         |     support level of 74.62     |          |
+|     |              |       |            |        |          |                 |                         | identified at 1/27 18:30. This |          |
+|     |              |       |            |        |          |                 |                         |    pattern is still in the     |          |
+|     |              |       |            |        |          |                 |                         |      process of forming.       |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  34 | US Crude Oil |  0.55 |      -0.52 |     81 |  Short   |   SL: 75.5800   | Identified: 01/27 18:30 |  Support identified at 74.96   | ONGOING  |
+|     |              |       |            |        |          |   EL: 74.9600   |   Expiry: 01/30 18:30   | with a stop loss at 75.58 and  |          |
+|     |              |       |            |        |          |   TP: 74.6200   |  Remaining: 2d 20h 55m  | a target of 74.62 over 3 days. |          |
+|     |              |       |            |        |          |   CP: 73.5900   |                         |      Probability of 81%.       |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  35 |    EURJPY    |  0.55 |       0.38 |     70 |  Short   |  SL: 164.0800   | Identified: 01/27 17:30 |  Channel Up Identified, Entry  | ONGOING  |
+|     |              |       |            |        |          |  EL: 162.3200   |   Expiry: 01/28 17:30   |   Level: 162.32, Stop Level:   |          |
+|     |              |       |            |        |          |  CP: 162.0950   |  Remaining: 0d 19h 55m  | 164.08, Target Level: 161.35,  |          |
+|     |              |       |            |        |          |  TP: 161.3500   |                         |     Target Period: 1 day,      |          |
+|     |              |       |            |        |          |                 |                         |        Probability: 70%        |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  36 | US Crude Oil |  0.55 |      -0.52 |     78 |  Short   |   SL: 75.5800   | Identified: 01/27 18:30 |  Support identified at 74.96   | ONGOING  |
+|     |              |       |            |        |          |   EL: 74.9600   |   Expiry: 01/30 18:30   | with a stop loss at 75.58 and  |          |
+|     |              |       |            |        |          |   TP: 74.6200   |  Remaining: 2d 20h 55m  |  a target of 74.62 in 3 days.  |          |
+|     |              |       |            |        |          |   CP: 73.5900   |                         |      Probability of 78%.       |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  37 |    ETHJPY    |  0.54 |       0.64 |     73 |  Short   | SL: 521513.7690 | Identified: 01/27 13:30 |     ETHJPY 240 Min Support     | ONGOING  |
+|     |              |       |            |        |          | CP: 482889.3000 |   Expiry: 01/30 13:30   | Identified at 1/27 13:30 with  |          |
+|     |              |       |            |        |          | EL: 480325.9600 |  Remaining: 2d 15h 55m  |  Entry Level 480325.96, Stop   |          |
+|     |              |       |            |        |          | TP: 458137.2500 |                         | Loss 521513.769, Target Level  |          |
+|     |              |       |            |        |          |                 |                         |   458137.25, Target Period 3   |          |
+|     |              |       |            |        |          |                 |                         |     days, Probability 73%      |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  38 |    EURUSD    |  0.37 |       3.03 |      0 |  Short   |   SL: 1.0521    | Identified: 01/27 05:30 | Channel Up identified at 01/27 | ONGOING  |
+|     |              |       |            |        |          |   CP: 1.0502    |   Expiry: 01/28 05:30   | 05:30. Possible bearish price  |          |
+|     |              |       |            |        |          |   EL: 1.0465    |  Remaining: 0d 7h 55m   |  movement towards the support  |          |
+|     |              |       |            |        |          |   TP: 1.0444    |                         |   1.0444 within the next 21    |          |
+|     |              |       |            |        |          |                 |                         |             hours.             |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  39 |    GBPJPY    |  0.35 |       0.29 |     69 |  Short   |  SL: 194.7600   | Identified: 01/27 17:30 |   GBPJPY 240 Min Channel Up    | ONGOING  |
+|     |              |       |            |        |          |  EL: 192.6800   |   Expiry: 01/28 17:30   |  Identified Time : 1/27 17:30  |          |
+|     |              |       |            |        |          |  CP: 192.5740   |  Remaining: 0d 19h 55m  |   Entry Level : 192.68 Stop    |          |
+|     |              |       |            |        |          |  TP: 191.9500   |                         | Level : 194.76 Target Level :  |          |
+|     |              |       |            |        |          |                 |                         |  191.95 Target Period : 1 day  |          |
+|     |              |       |            |        |          |                 |                         |   Probability: 69% Forecast:   |          |
+|     |              |       |            |        |          |                 |                         |             191.95             |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  40 |    EURAUD    |  0.33 |       0.12 |     70 |   Long   |   TP: 1.6739    | Identified: 01/27 17:30 | Ascending Triangle Identified  | ONGOING  |
+|     |              |       |            |        |          |   CP: 1.6716    |   Expiry: 01/30 17:30   |                                |          |
+|     |              |       |            |        |          |   EL: 1.6684    |  Remaining: 2d 19h 55m  |                                |          |
+|     |              |       |            |        |          |   SL: 1.6519    |                         |                                |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  41 | US Crude Oil |  0.24 |      -0.4  |      0 |  Short   |   SL: 79.4300   | Identified: 01/27 20:30 | Bearish price movement towards | ONGOING  |
+|     |              |       |            |        |          |   EL: 76.6100   |   Expiry: 01/28 01:30   |   target levels ranging from   |          |
+|     |              |       |            |        |          |   TP: 75.9400   |  Remaining: 0d 3h 56m   | 75.94 to 73.78 within the next |          |
+|     |              |       |            |        |          |   CP: 73.5900   |                         |  5 hours. Butterfly Fibonacci  |          |
+|     |              |       |            |        |          |                 |                         |      pattern identified.       |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  42 | US Crude Oil |  0.24 |      -0.4  |      0 |  Short   |   SL: 79.4300   | Identified: 01/27 20:00 |  Butterfly Fibonacci pattern   | ONGOING  |
+|     |              |       |            |        |          |   EL: 76.6100   |   Expiry: 01/28 01:00   |  identified. Possible bearish  |          |
+|     |              |       |            |        |          |   TP: 75.9400   |  Remaining: 0d 3h 26m   | price movement towards target  |          |
+|     |              |       |            |        |          |   CP: 73.5900   |                         |  levels ranging from 75.94 to  |          |
+|     |              |       |            |        |          |                 |                         | 73.78 within the next 5 hours. |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  43 |  Gold Spot   |  0.24 |      -0.24 |      0 |  Short   |  SL: 2878.5400  | Identified: 01/27 17:30 |     Possible bearish price     | ONGOING  |
+|     |              |       |            |        |          |  EL: 2797.4400  |   Expiry: 01/28 11:30   | movement towards target levels |          |
+|     |              |       |            |        |          |  TP: 2778.3000  |  Remaining: 0d 13h 55m  |    ranging from 2,778.30 to    |          |
+|     |              |       |            |        |          |  CP: 2746.7000  |                         |  2,716.34 within the next 18   |          |
+|     |              |       |            |        |          |                 |                         |             hours.             |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  44 |  Gold Spot   |  0.24 |      -0.24 |      0 |  Short   |  SL: 2878.5400  | Identified: 01/27 15:30 |     Possible bearish price     |   NEW    |
+|     |              |       |            |        |          |  EL: 2797.4400  |   Expiry: 01/28 07:30   | movement towards target levels |          |
+|     |              |       |            |        |          |  TP: 2778.3000  |  Remaining: 0d 9h 55m   |    ranging from 2,778.30 to    |          |
+|     |              |       |            |        |          |  CP: 2746.3000  |                         |  2,716.34 within the next 15   |          |
+|     |              |       |            |        |          |                 |                         | hours. Expiry Date/Time: 01/28 |          |
+|     |              |       |            |        |          |                 |                         |             12:22              |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  45 |  Gold Spot   |  0.24 |      -0.24 |      0 |  Short   |  SL: 2878.5400  | Identified: 01/27 15:30 |     Possible bearish price     |   NEW    |
+|     |              |       |            |        |          |  EL: 2797.4400  |   Expiry: 01/28 07:30   | movement towards target levels |          |
+|     |              |       |            |        |          |  TP: 2778.3000  |  Remaining: 0d 9h 55m   |    ranging from 2,778.30 to    |          |
+|     |              |       |            |        |          |  CP: 2746.7000  |                         |  2,716.34 within the next 16   |          |
+|     |              |       |            |        |          |                 |                         | hours. Expiry Date/Time: 01/28 |          |
+|     |              |       |            |        |          |                 |                         |             13:06              |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+|  46 | Brent Crude  |  0.98 |       0.36 |      0 |  Short   |   SL: 79.0400   |         Expired         |    Falling Wedge Emerging.     | ONGOING  |
+|     |              |       |            |        |          |   EL: 78.0000   |                         |     Possible bearish price     |          |
+|     |              |       |            |        |          |   CP: 77.5200   |                         |  movement towards the support  |          |
+|     |              |       |            |        |          |   TP: 76.9800   |                         | 76.98 within the next 8 hours. |          |
++-----+--------------+-------+------------+--------+----------+-----------------+-------------------------+--------------------------------+----------+
+
+Expired/Removed Signals:
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   # |    Asset     |   RRR |   Curr RRR |  Prob  |  Action  |  Price Levels   |  Time Information  |             Notes              |
++=====+==============+=======+============+========+==========+=================+====================+================================+
+|   1 |    USDJPY    |  3.08 |       3.08 |  N/A   |   Long   |  TP: 154.9700   |        N/A         | Triangle Breakout : 28 Minutes |
+|     |              |       |            |        |          |  EL: 154.2000   |                    |  Ago. Possible bullish price   |
+|     |              |       |            |        |          |  SL: 153.9500   |                    | movement forecast for the next |
+|     |              |       |            |        |          |                 |                    |     1 hour towards 154.97.     |
+|     |              |       |            |        |          |                 |                    |  Triangle has broken through   |
+|     |              |       |            |        |          |                 |                    |  the resistance line at 1/27   |
+|     |              |       |            |        |          |                 |                    | 20:15. Expiry Date/Time: 1/27  |
+|     |              |       |            |        |          |                 |                    |             21:25              |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   2 | Brent Crude  |  2.56 |       2.56 |  N/A   |   Long   |   TP: 78.9500   |        N/A         |     Possible bullish price     |
+|     |              |       |            |        |          |   EL: 78.2600   |                    |      movement towards the      |
+|     |              |       |            |        |          |   SL: 77.9900   |                    |  resistance 78.95 within the   |
+|     |              |       |            |        |          |                 |                    |   next 13 hours. Resistance    |
+|     |              |       |            |        |          |                 |                    |   Emerging : 28 Minutes Ago.   |
+|     |              |       |            |        |          |                 |                    |  Approaching Resistance level  |
+|     |              |       |            |        |          |                 |                    |  of 78.95 identified at 1/27   |
+|     |              |       |            |        |          |                 |                    |  20:15. This pattern is still  |
+|     |              |       |            |        |          |                 |                    |   in the process of forming.   |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   3 | Brent Crude  |  1.72 |       1.72 |  N/A   |   Long   |   TP: 79.1800   |        N/A         | Channel Up identified at 01/27 |
+|     |              |       |            |        |          |   EL: 78.2500   |                    | 19:30. Possible bullish price  |
+|     |              |       |            |        |          |   SL: 77.7100   |                    |      movement towards the      |
+|     |              |       |            |        |          |                 |                    |  resistance 79.18 within the   |
+|     |              |       |            |        |          |                 |                    |  next 5 hours. Pattern still   |
+|     |              |       |            |        |          |                 |                    |            forming.            |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   4 |    BTCUSD    |  1.24 |       1.24 |  N/A   |   Long   | TP: 103015.9900 |        N/A         |     Rising Wedge Emerging.     |
+|     |              |       |            |        |          | EL: 101426.9600 |                    |     Possible bullish price     |
+|     |              |       |            |        |          | SL: 100141.8200 |                    |      movement towards the      |
+|     |              |       |            |        |          |                 |                    |  resistance 103,015.99 within  |
+|     |              |       |            |        |          |                 |                    |        the next 1 hour.        |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   5 |    ETHUSD    |  0.96 |       0.96 |  N/A   |   Long   |  TP: 3167.6850  |        N/A         |     Rising Wedge Emerging.     |
+|     |              |       |            |        |          |  EL: 3127.2900  |                    |     Possible bullish price     |
+|     |              |       |            |        |          |  SL: 3085.2800  |                    |      movement towards the      |
+|     |              |       |            |        |          |                 |                    |  resistance 3,167.6850 within  |
+|     |              |       |            |        |          |                 |                    |    the next 1 hour. Expiry     |
+|     |              |       |            |        |          |                 |                    |     Date/Time: 01/27 21:42     |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   6 | US Crude Oil |  0.64 |       0.64 |  N/A   |  Short   |   SL: 75.9900   |        N/A         |     Channel Down Emerging.     |
+|     |              |       |            |        |          |   EL: 74.8600   |                    |     Possible bearish price     |
+|     |              |       |            |        |          |   TP: 74.1400   |                    |  movement towards the support  |
+|     |              |       |            |        |          |                 |                    |    74.14 within the next 10    |
+|     |              |       |            |        |          |                 |                    |             hours.             |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   7 |  Gold Spot   |  0.24 |       0.24 |  N/A   |  Short   |  SL: 2878.5400  |        N/A         |     Possible bearish price     |
+|     |              |       |            |        |          |  EL: 2797.4400  |                    | movement towards target levels |
+|     |              |       |            |        |          |  TP: 2778.3000  |                    |    ranging from 2,778.30 to    |
+|     |              |       |            |        |          |                 |                    |  2,716.34 within the next 16   |
+|     |              |       |            |        |          |                 |                    | hours. Expiry Date/Time: 01/28 |
+|     |              |       |            |        |          |                 |                    |             11:58              |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   8 |    EURUSD    |  0.24 |       0.24 |  N/A   |  Short   |   SL: 1.0741    |        N/A         |     ABCD Fibonacci pattern     |
+|     |              |       |            |        |          |   EL: 1.0564    |                    |  identified. Possible bearish  |
+|     |              |       |            |        |          |   TP: 1.0522    |                    | price movement towards target  |
+|     |              |       |            |        |          |                 |                    | levels ranging from 1.0522 to  |
+|     |              |       |            |        |          |                 |                    |    1.0386 within the next 8    |
+|     |              |       |            |        |          |                 |                    | hours. Expiry Date/Time: 01/28 |
+|     |              |       |            |        |          |                 |                    |             03:58              |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
+|   9 |    BTCUSD    |  0.5  |       0.5  |  N/A   |   Long   | TP: 100306.4100 |        N/A         | Consecutive Candles : 3 Hours  |
+|     |              |       |            |        |          | EL: 98719.4400  |                    |              Ago               |
+|     |              |       |            |        |          | SL: 95545.5100  |                    |                                |
++-----+--------------+-------+------------+--------+----------+-----------------+--------------------+--------------------------------+
