@@ -225,27 +225,74 @@ class TradingExecutor:
         if self.order_placed:
             return
         
-        # Convert price correctly based on order type
-        price_int = int(price*100000)  # Use 5 decimal places for forex
+        # Convert price based on symbol type
+        symbol_name = next((name for name, id in self.symbols.items() if id == self.symbol_id), '')
+        
+        # JPY pairs use different price scale (3 decimal places)
+        if "JPY" in symbol_name or "XAU" in symbol_name or "XAG" in symbol_name:
+            price_multiplier = 1000
+            price_points = int(price * price_multiplier)  # Convert to 3 decimal places for JPY pairs
+        if "USD" in symbol_name:
+            price_multiplier = 100000
+            price_points = int(price * price_multiplier)
+        else:
+            price_multiplier = 1000
+            price_points = int(price * price_multiplier)  # Convert to 5 decimal places for other pairs
         
         order_req = ProtoOANewOrderReq()
         order_req.ctidTraderAccountId = self.account_id
         order_req.symbolId = self.symbol_id
         order_req.orderType = order_type
         order_req.tradeSide = trade_side
-        order_req.volume = 1000000  # 0.1 lots to match screenshot
+        if "XAU" in symbol_name or "XAG" in symbol_name: #metals
+            order_req.volume = 10000  # 0.01 lots for metals
+        if "USD" in symbol_name: #currency pairs
+            order_req.volume = 1000000
+        else: #Indices
+            order_req.volume = 1000  # 0.1 lots
         
-        if price_int/100000 > self.current_market_price:
-            order_req.orderType = ProtoOAOrderType.STOP
-            order_req.stopPrice = price_int/100000
+        #if "JPY" not in symbol_name:
+        if "JPY" in symbol_name or "XAU" in symbol_name or "XAG" in symbol_name:
+            if price_points/1000 > self.current_market_price:
+                order_req.orderType = ProtoOAOrderType.STOP
+                order_req.stopPrice = price_points/1000
+            else:
+                order_req.orderType = ProtoOAOrderType.LIMIT
+                order_req.limitPrice = price_points/1000
+        if "USD" in symbol_name:
+            if price_points/100000 > self.current_market_price:
+                order_req.orderType = ProtoOAOrderType.STOP
+                order_req.stopPrice = price_points/100000
+            else:
+                order_req.orderType = ProtoOAOrderType.LIMIT
+                order_req.limitPrice = price_points/100000
         else:
-            order_req.orderType = ProtoOAOrderType.LIMIT
-            order_req.limitPrice = price_int/100000
-
-        # Set tighter SL/TP
-        order_req.relativeStopLoss = 250  # 25 pips
-        order_req.relativeTakeProfit = 500  # 50 pips
+            if price_points/1000 > self.current_market_price:
+                order_req.orderType = ProtoOAOrderType.STOP
+                order_req.stopPrice = price_points/1000
+            else:
+                order_req.orderType = ProtoOAOrderType.LIMIT
+                order_req.limitPrice = price_points/1000
+            
+        # Set appropriate SL/TP based on symbol
+        if "USDJPY" in symbol_name or "XAUUSD" in symbol_name or "XAGUSD" in symbol_name:
+            stop_loss_points = 25000  # 25 pips for JPY pairs (multiply by 10 for JPY)
+            take_profit_points = 50000  # 50 pips for JPY pairs
+        if "USD" in symbol_name:
+            stop_loss_points = 250 # 25 pips for USD pairs
+            take_profit_points = 500 # 50 pips for USD pairs
+        else:
+            stop_loss_points = 250000  # 2.5 pips for standard pairs 
+            take_profit_points = 500000  # 5.0 pips for standard pairs
+        
+        order_req.relativeStopLoss = stop_loss_points
+        order_req.relativeTakeProfit = take_profit_points
         order_req.comment = "Auto Trade"
+        
+        print(f"\nOrder details for {symbol_name}:")
+        print(f"Price points: {price_points}")
+        print(f"Stop loss points: {stop_loss_points}")
+        print(f"Take profit points: {take_profit_points}")
         
         deferred = self.client.send(order_req)
         deferred.addCallbacks(self.on_order_response, self.on_error)
