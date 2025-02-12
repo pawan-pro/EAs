@@ -1,0 +1,78 @@
+2025-02-11 19:58:42,404 - INFO - Starting trading executor...
+2025-02-11 19:58:43,160 - INFO - Connected to cTrader
+2025-02-11 19:58:44,383 - INFO - Received message type: 2101
+2025-02-11 19:58:44,384 - INFO - Application authentication successful
+2025-02-11 19:58:45,376 - INFO - Received message type: 2150
+2025-02-11 19:58:46,404 - INFO - Received message type: 2103
+2025-02-11 19:58:46,404 - INFO - Account authentication successful
+2025-02-11 19:58:46,405 - INFO - Account authentication successful
+2025-02-11 19:58:47,454 - INFO - Received message type: 2115
+2025-02-11 19:58:48,346 - INFO - Received message type: 2131
+2025-02-11 19:59:09,808 - ERROR - Error: [Failure instance: Traceback: <class 'twisted.internet.defer.TimeoutError'>: (5, 'Deferred')
+/Users/pawan/anaconda3/lib/python3.10/site-packages/twisted/internet/defer.py:798:timeItOut
+/Users/pawan/anaconda3/lib/python3.10/site-packages/twisted/internet/defer.py:957:cancel
+/Users/pawan/anaconda3/lib/python3.10/site-packages/twisted/internet/defer.py:916:errback
+/Users/pawan/anaconda3/lib/python3.10/site-packages/twisted/internet/defer.py:984:_startRunCallbacks
+--- <exception caught here> ---
+/Users/pawan/anaconda3/lib/python3.10/site-packages/twisted/internet/defer.py:1078:_runCallbacks
+/Users/pawan/anaconda3/lib/python3.10/site-packages/twisted/internet/defer.py:809:convertCancelled
+/Users/pawan/anaconda3/lib/python3.10/site-packages/twisted/internet/defer.py:293:_cancelledToTimedOutError
+]
+2025-02-11 19:59:09,808 - INFO - Received message type: 2128
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:09,809 - INFO - Received message type: 2131
+2025-02-11 19:59:10,007 - INFO - Received message type: 2130
+2025-02-11 19:59:10,019 - INFO - Received message type: 2126
+2025-02-11 19:59:10,019 - ERROR - Error received: Error 
+2025-02-11 19:59:10,021 - INFO - Order response received: payloadType: 2126
+payload: "\020\253\211\226\024\030\002\"C\010\303\321\2037\022\031\010\001\020\000\030\0010\000:\nAuto TradeB\003EUR\030\003 \000)\000\000\000\000\000\000\000\000H\000Q\000\000\000\000\000\000\000\000X\000`\000h\000x\002\200\001\000*e\010\301\245\261c\022\"\010\001\020\300\204=\030\001 \257\356\247\253\31720\000:\nAuto TradeB\003EUR\030\003 \001@\000H\257\356\247\253\3172`\000q\315\314\314\314\314\314\360?\212\001\n4365341104\220\001\002\230\001\303\321\2037\240\001\372\001\250\001\364\003\270\001\000\300\001\001P\000"
+clientMsgId: "4365341104"
+
+2025-02-11 19:59:12,028 - INFO - Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
+2025-02-11 19:59:26,546 - INFO - Starting trading executor...
+2025-02-11 19:59:26,632 - INFO - Connected to cTrader
+2025-02-11 19:59:27,862 - INFO - Received message type: 2101
+2025-02-11 19:59:27,862 - INFO - Application authentication successful
+2025-02-11 19:59:28,852 - INFO - Received message type: 2150
+2025-02-11 19:59:29,868 - INFO - Received message type: 2103
+2025-02-11 19:59:29,869 - INFO - Account authentication successful
+2025-02-11 19:59:29,869 - INFO - Account authentication successful
+2025-02-11 19:59:30,933 - INFO - Received message type: 2115
+2025-02-11 19:59:31,846 - INFO - Received message type: 2131
+2025-02-11 19:59:52,243 - INFO - Received message type: 2128
+2025-02-11 19:59:52,245 - INFO - Received message type: 2131
+2025-02-11 19:59:52,245 - INFO - Received message type: 2131
+2025-02-11 19:59:52,246 - INFO - Received message type: 2131
+2025-02-11 19:59:52,246 - INFO - Received message type: 2131
+2025-02-11 19:59:52,246 - INFO - Received message type: 2131
+2025-02-11 19:59:52,246 - INFO - Received message type: 2131
+2025-02-11 19:59:52,246 - INFO - Received message type: 2131
+2025-02-11 19:59:52,246 - INFO - Received message type: 2131
+2025-02-11 19:59:52,247 - INFO - Received message type: 2131
+2025-02-11 19:59:52,247 - INFO - Received message type: 2131
+2025-02-11 19:59:52,247 - INFO - Received message type: 2131
+2025-02-11 19:59:52,248 - INFO - Received message type: 2131
+2025-02-11 19:59:52,248 - INFO - Received message type: 2131
+2025-02-11 19:59:52,248 - INFO - Received message type: 2131
+2025-02-11 19:59:52,248 - INFO - Received message type: 2131
+2025-02-11 19:59:52,248 - INFO - Received message type: 2131
+2025-02-11 19:59:52,447 - INFO - Received message type: 2130
+2025-02-11 19:59:52,459 - INFO - Received message type: 2126
+2025-02-11 19:59:52,459 - ERROR - Error received: Error 
+2025-02-11 19:59:52,460 - INFO - Order response received: payloadType: 2126
+payload: "\020\253\211\226\024\030\002\"C\010\221\322\2037\022\031\010\001\020\000\030\0010\000:\nAuto TradeB\003EUR\030\003 \000)\000\000\000\000\000\000\000\000H\000Q\000\000\000\000\000\000\000\000X\000`\000h\000x\002\200\001\000*e\010\235\247\261c\022\"\010\001\020\300\204=\030\001 \374\271\252\253\31720\000:\nAuto TradeB\003EUR\030\003 \001@\000H\374\271\252\253\3172`\000q\315\314\314\314\314\314\360?\212\001\n4370961968\220\001\002\230\001\221\322\2037\240\001\372\001\250\001\364\003\270\001\000\300\001\001P\000"
+clientMsgId: "4370961968"
+
+2025-02-11 19:59:54,466 - INFO - Disconnected from cTrader: [Failure instance: Traceback (failure with no frames): <class 'twisted.internet.error.ConnectionLost'>: Connection to the other side was lost in a non-clean fashion: Connection lost.
+]
